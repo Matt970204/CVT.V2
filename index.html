@@ -9,10 +9,11 @@
     </head>
     <body>
         <h1>Covid Vaccine Tracker</h1> 
+        <img src="images/vaccine_image.jpg" alt="My test image" width="600" height="300" class="center">
         <h2 id="insertSm"></h2> 
         <p>This is a Covid vaccine online tracker. Please fill in the form to help us beat this virus!</p>
 
-        <form name="SRForm" method="post" onsubmit="return condensed_formsub();"> 
+        <form class ="form" name="SRForm" method="post" onsubmit="return condensed_formsub();"> 
                 <legend>Vaccination tracking form</legend> 
                 <label for="fname">Name:</label><br>
                 <input type="text" id="fname" name="fname" value="" placeholder="Enter Name"><br>
@@ -37,9 +38,10 @@
                 <input type="text" id="pvax" name="pvax" value="" placeholder="Vaccination station"><br><br>
                 <input type="submit" value="Submit"/> 
             </form>
+          
             <br>
             <br>
-            <table style="width:80%" id="tbl">
+            <table class="center" style="width:80%" id="tbl">
                 <tr>
                   <th>Firstname</th>
                   <th>Surname</th>
@@ -48,6 +50,9 @@
                   <th>Place</th>
                 </tr>
               </table>
+              <br>
+              <br>
+              <img src="images/Staying-Safe-Together.png" alt="My test image" width="600" height="300">
     </body>
     <br>
     <br>

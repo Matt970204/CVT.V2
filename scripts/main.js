@@ -1,7 +1,6 @@
 var n=1;
 var x=0;
 
-//for condensed code use
 var n_string=["fname","sname","date","Vaxadmin","pvax"];
 var storageOb=[];
 
