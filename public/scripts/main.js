@@ -17,3 +17,16 @@ function condensed_formsub(){
 	x++;
 	return false;
 }
+/*
+function addData() {
+    const sqlite3 = require('sqlite3').verbose();
+    let db = new sqlite3.Database('./data.db');
+    db.run('INSERT INTO info (result) VALUES (10)', function(err, row) {
+        if(err) {
+            console.log(err.message);
+        }
+        console.log("entry added to table");
+    });
+}
+addData();
+*/
